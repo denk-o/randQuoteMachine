@@ -1,1 +1,31 @@
-My Page
+<!DOCTYPE html>
+<!--Random quote generator-->
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="styles.css" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+		<script src="jquery-1.11.3.min.js" type="text/javascript"></script>
+		<script src="scripts.js" type="text/javascript"></script>
+	</head>
+  <body>
+    <div id="quote_area" class="container">
+      <div id="quote_container" class="row">
+      </div>
+      <div id="author_container" class="row text-right">
+      </div>
+      <div id="console_container" class="row">
+        <div class="col-md-6">
+          <a href="https://twitter.com/intent/tweet" target="_blank">
+            <button class="btn btn-info" id="tweet_button">
+              <i class="fa fa-twitter"></i>
+            </button>
+          </a>
+        </div>
+        <div class="col-md-6">
+          <button class="btn btn-info" id="get_quote">Get Quote</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

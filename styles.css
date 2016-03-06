@@ -1,0 +1,41 @@
+body{
+  background-color: rgba(21,224,224,0.56);
+}
+#quote_area{
+  margin-top:10%;
+  width:30%;
+  background-color: white;
+  border-radius:9px;
+}
+#quote_container{
+  padding: 5%;
+  font-size: 26px;
+}
+#author_container{
+  padding:1%;
+  position: relative;
+  top:-15px;
+  right:10%;
+}
+#console_container{
+  padding:5%;
+}
+#get_quote{
+  float:right;
+  margin-right: 10px;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
